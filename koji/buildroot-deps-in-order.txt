@@ -46,12 +46,6 @@ libgcj-devel
 goose-release-server *
 - NO DEPS
 
-gpm
-gpm-devel
-gpm-libs
-gpm-static
-- sed, gawk, texinfo, bison, ncurses (ncurses-devel), autoconf, automake, libtool, libcap-ng-devel, glibc, pkgconfig, chkconfig, texinfo (info)
-
 grep *
 - texinfo (info), pcre (pcre-devel), autoconf, automake, gettext
 
@@ -65,24 +59,8 @@ info
 make *
 - texinfo (info)
 
-ncurses *
-ncurses-libs
-ncurses-base
-ncurses-term
-ncurses-devel
-libtermcap-devel
-- gpm-devel, pkgconfig
-
 patch *
 - libselinux (libselinux-devel)
-
-pkgconfig *
-pkg-config
-- NO DEPS
-
-readline *
-readline-static
-- ncurses-devel, pkgconfig
 
 redhat-rpm-config *
 - coreutils
@@ -105,7 +83,7 @@ unzip
 util-linux-ng
 - audit-libs (audit-libs-devel), gettext (gettext-devel), libselinux (libselinux-devel), ncurses (ncurses-devel), pam (pam-devel), texinfo, zlib (zlib-devel), popt (popt-devel), libutempter (libutempter-devel), autoconf, automake, coreutils, libuuid, libblkid, udev, pkgconfig, shadow-utils
 
-which
+which *
 - readline (readline-devel), texinfo (info)
 
 xz *
@@ -153,9 +131,12 @@ gettext-libs
 gettext-devel
 - autoconf, automake, libtool, bison, gcc-c++, gcc-java, libgcj, java-1.6.0-openjdk (java-1.6.0-openjdk-devel), libgcj, zip, unzip, cvs, texinfo (info), expat (expat-devel)
 
-ncurses
-ncurses-devel
+ncurses *
 ncurses-libs
+ncurses-base
+ncurses-term
+ncurses-devel
+libtermcap-devel
 - gpm (gpm-devel), pkgconfig
 
 libcap
@@ -330,14 +311,19 @@ db4-tcl
 db4-java
 - perl, libtool, ed, util-linux-ng, tcl (tcl-devel), gcc-java, java-1.6.0-openjdk (java-1.6.0-openjdk-devel)
 
+gpm
+gpm-devel
+gpm-libs
+gpm-static
+- sed, gawk, texinfo, bison, ncurses (ncurses-devel), autoconf, automake, libtool, libcap-ng-devel, glibc, pkgconfig, chkconfig, texinfo (info)
 
+readline *
+readline-static
+- ncurses-devel, pkgconfig
 
-
-
-
-
-
-
+pkgconfig *
+pkg-config
+- NO DEPS
 
 
 
