@@ -84,7 +84,8 @@ util-linux-ng
 which
 - readline (readline-devel), texinfo (info)
 
-xz
+xz *
+lzma-compat
 - xz-libs, pkgconfig
 
 -----------------------end buildroot-------------------------------------
